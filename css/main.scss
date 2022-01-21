@@ -29,6 +29,7 @@ body{
     font-weight: 400;
     font-size: 1.6rem;
 }
+
 a{
     color: var(--secondary-color);
 }
@@ -282,7 +283,7 @@ i{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
+    z-index: -1;
     &::after{
         content: "";
         position: absolute;
@@ -348,7 +349,7 @@ i{
 .training{
     display: grid;
     grid-gap: 20px;
-
+    z-index: -1;
     @media (min-width:600px){
         grid-template-columns: repeat(3, 1fr);
     }
@@ -366,6 +367,7 @@ i{
         min-height: auto;
         aspect-ratio: 1 /1 ;
         padding: 10px;
+        z-index: -1;
 
         &-title{
             font-size: 3rem;
@@ -418,6 +420,7 @@ i{
     display: flex;
     align-items: center;
     position: relative;
+    z-index: -1;
     
     &::before{
         content: "";
