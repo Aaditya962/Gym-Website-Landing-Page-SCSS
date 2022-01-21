@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=Merriweather&family=Montserrat:ital,wght@0,400;1,200&family=Poppins:wght@400;600&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    
+    <a href="#main" class="skip-to-content">skip-to-content</a>
+    <button class="close">
+        <img src="images/icon-close.svg" alt="">
+    </button>
+    <header class="header">
+        <div class="container">
+            <h2 class="logo">
+                <span class="sr-only">GetFit</span>
+                    <i class="fas fa-dumbbell"></i>
+            </h2>
+            <div class="header-menu">
+
+
+                <!-- Hamburger -->
+                <button class="burger" id="mobileMenuBtn" aria-label="Toggle Menu" aria-expanded="false" aria-controls="mobileMenu">
+                    <img src="images/menu.svg" alt="Mobile menu" width="16" height="11" >
+                </button>
+
+
+                <nav class="menu" id="mobileMenu">
+                    <h1 class="sr-only">Main navigation</h1>
+                    <ul>
+                        <li><a href="#" class="menu-link">Home</a></li>
+                        <li><a href="#" class="menu-link">About</a></li>
+                        <li><a href="#" class="menu-link">Shop</a></li>
+                        <li><a href="#" class="menu-link">Gallery</a></li>
+                        <li><a href="#" class="menu-link">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </div>  
+
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+
+            <div class="hero-image">
+
+                <img src="images/hero.jpg" alt="HeavyLifting" Loading="lazy" width="1920" height="1074">
+            </div>
+            <div class="container hero-cont">
+                <div class="hero-wrapper" id="main">
+                <h1 class="hero-wrapper-heading">Make This year <span>your year</span>.</h1>
+                <p class="hero-wrapper-body">Define your limits and pursue your fitness goals with a complimentary all-access gym pass!</p>
+                <a href="#" class="burger burger-primary" aria-label="Find out More">Find out More</a>
+            </div>
+            <a href="#scrolldown" class="hero-scrollbtn">SCROLL <img src="images/arrow-down.svg" alt="Scroll Down" width="24" height="15" Loading="lazy"></a>
+            </div>
+        </section>
+        <section class="categories pt-1" id="scrolldown">
+            <h1 class="sr-only">training categories</h1>
+
+            <div class="container training">
+                <a href="#" class="training-card training-card-square">
+                    <h3 class="training-card-title">Expert Coaching</h3>
+                    <div class="image-overlay"></div>
+                    <div class="training-image">
+                        <img src="images/expert-coaching.jpg" alt="expert-coaching" Loading="lazy" width="536" height="559">
+                    </div>
+                </a>
+                <a href="#" class="training-card training-card-square">
+                    <h3 class="training-card-title">Nutrition</h3>
+                    <div class="image-overlay"></div>
+                    <div class="training-image">
+                        <img src="images/nutrition.jpg" alt="expert-coaching" Loading="lazy" width="536" height="559">
+                    </div>
+                </a>
+                <a href="#" class="training-card training-card-square">
+                    <h3 class="training-card-title">Support</h3>
+                    <div class="image-overlay"></div>
+                    <div class="training-image">
+                        <img src="images/support.jpg" alt="expert-coaching" Loading="lazy" width="536" height="559">
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="get-started get-started-imag1 mt-1">
+            <div class="overlay"></div>
+            <div class="container">
+                <h1 class="text-center">Get Started Today<br><span>Why wait</span></h1>
+                <a href="#" class="burger burger-primary">Sign Up</a>
+            </div>
+        </section>
+        <section class="training-options pt-1">
+
+            <div class="container">
+                <h1 class="training-options-heading text-center">Your training <span>Options</span></h1>
+                <p class="training-options-body text-center">Defy your limits and pursue your fitness goals with a complimentary all-access gym pass! Try our wide-variety of classes, train with world-class coaches, and access the equipment you need. Available at participating locations. Offers vary by location. Terms and conditions may apply.</p>
+                <div class="training training-card-end pt-1">
+
+                    <a href="#" class="training-card ">
+                        <h3 class="training-card-title">Small Group PT</h3>
+                        <p class="training-card-body">Expect the unexpected in our signature high-intensity interval training class. Cycle through timed interval stations designed to consistently shock your system and deliver results.</p>
+                        <div class="image-overlay"></div>
+                        <div class="training-image">
+                            <img src="images/small-group-pt.jpg" alt="expert-coaching" Loading="lazy" width="536" height="559">
+                        </div>
+                    </a>
+                    <a href="#" class="training-card ">
+                        <h3 class="training-card-title">Classes</h3>
+                        <p class="training-card-body">Develop strength, conditioning, and flexibility with our ZOO 365 - inspired fitness routines. These efficient, effective, total-body workouts can be done at home with minimal equipment.</p>
+                        <div class="image-overlay"></div>
+                        <div class="training-image">
+                            <img src="images/get-started.jpg" alt="expert-coaching" Loading="lazy" width="536" height="559">
+                        </div>
+                    </a>
+                    <a href="#" class="training-card ">
+                        <h3 class="training-card-title">One to one</h3>
+                        <p class="training-card-body">Receive expert advice, a personalized plan, and 1-on-1 real-time attention with online personal training. Regardless of goal or athletic ability, we have a coach for you. Equipment not necessary.</p>
+                        <div class="image-overlay"></div>
+                        <div class="training-image">
+                            <img src="images/we-will-help.jpg" alt="expert-coaching" Loading="lazy" width="536" height="559">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="get-started get-started-imag2 mt-1">
+            <div class="overlay"></div>
+            <div class="container">
+                <h1 class="text-center">WE WILL HELP YOU GET IN<br>THE SHAPE OF YOUR LIFE<br><span>LETS GET STARTED</span></h1>
+                <a href="#" class="burger burger-primary">Sign Up</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer pt-1">
+        <div class="container footer-container">
+
+            <div class="footer-col">
+                <h3 class="footer-col-heading">Find us</h3>
+                <ul class="footer-col-list">
+                    <li>Address: <a href="#">43 Moscow Pi London</a></li>
+                    <li>Contact: <a href="#">235942360</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3 class="footer-col-heading">Get Assistance</h3>
+                <ul class="footer-col-list">
+                    <li>From: <a href="#">India</a></li>
+                    <li>From: <a href="#">Canada</a></li>
+                    <li>From: <a href="#">Tokyo</a></li>
+                    <li>From: <a href="#">Singapore</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3 class="footer-col-heading">Keep in touch</h3>
+                <ul class="footer-col-list">
+                    <li>Facebook <a href="#">Link</a></li>
+                    <li>Instagram <a href="#">Link</a></li>
+                    <li>Twitter: <a href="#">Link</a></li>
+                    <li>LinkedIn: <a href="#">Link</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
